@@ -1,0 +1,400 @@
+@body-bg-color: white;
+@nav-font-size: 11px;
+@nav-font-color: #2A2D34;
+@title-font-size: 40px;
+@title-line-height: 47px;
+@basic-font: 'Raleway', sans-serif;
+@basic-font-size: 16px;
+@basic-line-height: 24px;
+@basic-font-weight: 400;
+@basic-letter-spacing: 1px;
+@button-letter-spacing: 0.5px;
+@bold-font-weight: 700;
+@background-light-blue: rgba(73,222,252,0.05);
+@section-height: 710px;
+
+body {
+	background: @body-bg-color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: @basic-font;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+h1 {
+	font-family: @basic-font;
+	font-size: @title-font-size;
+	line-height: @title-line-height;
+	font-weight: @basic-font-weight;
+	letter-spacing: @basic-letter-spacing;
+	padding-bottom: 18px;
+}
+h2 {
+	font-size: @title-font-size;
+}
+p {
+	font-family: @basic-font;
+	font-size: @basic-font-size;
+	line-height: @basic-line-height;
+}
+nav {
+	width: 100%;
+	overflow: hidden;
+}
+a {
+	text-decoration: none;
+	color: @nav-font-color;
+	font-family: @basic-font;
+}
+nav a {
+	font-size: @nav-font-size;
+	font-family: @basic-font;
+	color: @nav-font-color;
+	display: inline-block;
+	float: left;
+}
+input,button {
+	background: none;
+	border: 0;
+	color: inherit;
+	/* cursor: default; */
+	font: inherit;
+	line-height: normal;
+	overflow: visible;
+	padding: 0;
+	-webkit-appearance: button; /* for input */
+	-webkit-user-select: none; /* for button */
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+img {
+	max-width: 100%;
+}
+.menu-element {
+	padding: 55px 20px;
+	display: block;
+}
+nav a:hover {
+
+}
+#logo {
+	padding: 20px 20px;
+}
+.img-icon{
+	margin: 0 auto;
+	align-self: center;
+}
+.sm-icon {
+	padding: 60px 8px;
+	display: inline-block;
+}
+.sm-icon > a {
+	padding-top: 1rem;
+}
+.close-icon {
+	display: none;
+}
+.sm-icon-end {
+	margin-right: 20px;
+}
+.background-image{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.section {
+	height: @section-height;
+}
+.section-text {
+	width: 80%;
+	align-self: center;
+}
+.first-section {
+.section;
+	background-image: url("../img/kasia-marcin-background.png");
+	.background-image;
+	color: white;
+}
+.first-section-text {
+	.section-text;
+	width: 50%;
+}
+.second {
+	background-color: @background-light-blue;
+}
+.second-section {
+	height: 620px;
+}
+.img-second {
+	background-image: url("../img/marcin.jpg");
+	.background-image;
+}
+.button {
+	border: 1px solid #2A2D34;
+	height: 50px;
+	padding: 6px 20px;
+	color: #2A2D34;
+	letter-spacing: @button-letter-spacing;
+}
+.work-with-button {
+	.button;
+	margin-top: 10px;
+}
+.third-section {
+	font-size: 48px;
+	font-family: Raleway-Light;
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	padding: 100px 0px;
+	color: rgba(42,45,52,0.50);
+	letter-spacing: 0.68px;
+	line-height: 69px;
+}
+.fourth-section {
+	height: 400px;
+}
+.fourth-section-text {
+	.section-text;
+	margin-top: 15%;
+}
+.img-fourth {
+
+}
+.fifth-section {
+	height: 710px;
+}
+.fifth-section-text {
+	.section-text;
+	margin-top: 20%;
+}
+.kasia-iphone {
+align-self: center;
+	width: 80%;
+	max-width: 310px;
+	margin: 0 auto;
+}
+.sixth-section {
+	.section;
+}
+.a {
+	overflow: hidden;
+}
+.sixth-section-text {
+	.section-text;
+
+}
+.part {
+	height: 50%;
+}
+.first-part {
+	.part;
+	overflow: hidden;
+}
+.second-part {
+	.part;
+	margin-top: 30px;
+	display:inline-block;
+	align-self: flex-start;
+}
+.fb-group-img {
+display: inline-block;
+align-self: flex-end;
+}
+.marcin-fb-img {
+	.fb-group-img;
+	height: auto;
+}
+.seventh {
+	background-color: #2A2D34;
+	color: white;
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+.seventh-section-text {
+	width: 55%;
+}
+.seventh-section-text h1 {
+	font-family: Raleway-SemiBold;
+	color: rgba(255,255,255,0.60);
+	letter-spacing: 1.22px;
+	line-height: 57px;
+	font-size: 48px;
+
+}
+.main-page-form {
+font-size: @basic-font-size;
+font-family: @basic-font;
+}
+.form-input {
+	border: 1px solid white;
+	height: 60px;
+	padding: 6px 20px;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.input-message {
+	height: 140px;
+}
+.form-button {
+	margin-top: 20px;
+	border: 1px solid white;
+	height: 50px;
+	padding: 6px 20px;
+}
+.instagrams {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+footer {
+	padding: 50px 0;
+}
+a.footer-link {
+	display: block;
+	padding-bottom: 8px;
+}
+.footer-last-col {
+	padding-top: 42px;
+	padding-bottom: 10px;;
+}
+.open-menu {
+	background-color: @background-light-blue;
+	height: 400px;
+	display: block;
+}
+.about-first-image{
+
+	background-image: url("../img/about-first-image.jpg");
+	.background-image;
+}
+.img-kasia {
+	background-image: url("../img/about-kasia.jpg");
+	.background-image;
+}
+.img-marcin {
+	background-image: url("../img/about-marcin.jpg");
+	.background-image;
+}
+.photo-mix-section {
+	height: 800px;
+}
+.photo-mix-col {
+	margin-left: -50px;
+}
+.photo-mix {
+	height: auto;
+}
+.photo-in-mix {
+overflow: hidden;
+}
+.mix-text-area {
+	background-color: #2A2D34;
+	color: white;
+}
+.mix-section-text {
+	.section-text;
+	margin: 0 auto;
+	text-align: center;
+}
+.mix-button {
+	.button;
+	border-color: white;
+	color: white;
+}
+.slf-algn-cntr {
+		align-self: center;
+}
+.pddng-zr {
+	padding:0;
+}
+.newsletter {
+	height: 200px;
+}
+.newsletter-input {
+	.button;
+	width: 80%;
+}
+.newsletter-submit {
+	margin-left: -30px;
+	margin-top: 4px;
+}
+.kasia-book-section {
+	height: 960px;
+	background-image: url("../img/kasia-book.jpg");
+	.background-image;
+	color: white;
+}
+.description {
+	border-width: 50px;
+	border-style: solid;
+	border-color: rgba(42, 45, 52, 0);
+	height: 400px;
+	background-color: rgba(42, 45, 52, 0.9);
+	margin-top: 100px;
+}
+.description-text {
+	.slf-algn-cntr;
+	width: 85%;
+}
+.book-button {
+	.mix-button;
+	margin-top: 40px;
+}
+.event {
+	background-color: #2A2D34;
+}
+.event-section {
+	height: 700px;
+	position: relative;
+	border: 1px solid blue;
+}
+.event-picture {
+	border: 1px solid red;
+	margin-top: 10%;
+}
+.event-description {
+	position: absolute;
+	top: 0;
+	border: 1px solid blue;
+	height: 400px;
+	margin-left: 50%;
+	margin-top: 20%;
+}
+.eve {
+	background-color: #2A2D34;
+	height: 700px;
+}
+.eve-pic {
+	margin-top: 10%;
+	height: 500px;
+	border: 1px solid yellow;
+}
+.eve-desc {
+	border: 1px solid red;
+	margin-top: 20%;
+	margin-left: -8.333333%;
+	background-color: white;
+}
+.eve-data {
+	margin-top: -100px;
+	text-align: right;
+	font-size: 40px;
+	color: white;
+}
+.text-section {
+	width: 650px;
+	margin: 0 auto;
+}
+.img-left {
+	width: 50%;
+	height: 100%;
+}
+.img-full {
+	max-width: 100%;
+}
+@import "<1200.less";
+@import "<786.less";
